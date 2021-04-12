@@ -1,0 +1,40 @@
+.AnimalBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.borderedBox {
+    height: 100%;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 3px 3px .5em .01em #a2b4c6, -3px -3px .5em .01em #ffffff, inset 1px 1px .4em #F0F7F4;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.animalImg, .animalTxt {
+    max-width: 200px;
+}
+
+.animalImg {
+    max-height: 200px;
+}
+
+.imgDiv {
+    width: 200px;
+    height: 200px;
+}
+
+.animalTxt {
+    color: #272727;
+}
+
+.AnimalBox a:hover {
+    text-decoration: none;
+}
+
+.borderedBox:hover {
+    -webkit-transform: scale(1.02);
+}
